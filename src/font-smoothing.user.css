@@ -1,0 +1,11 @@
+/* ==UserStyle==
+@name           Font Smoothing
+@namespace      Font Smoothing 
+@version        1.0.0
+@description    Font Smoothing antialiased auto
+==/UserStyle== */
+@-moz-document url-prefix("https://") {
+    body {
+        -webkit-font-smoothing: auto !important;
+    }
+}
